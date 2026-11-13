@@ -1,0 +1,56 @@
+{
+  "_hinweis": "Frei erfundener Dummy-Fall für den AKKI Hackathon 2026. Keine echte Person. Medizinisch nicht geprüft, das Team darf und soll korrigieren.",
+  "stammdaten": {
+    "fall_id": "DUMMY-0001",
+    "name": "Erika Musterfrau",
+    "alter": 82,
+    "geschlecht": "weiblich",
+    "station": "Unfallchirurgie 3B",
+    "aufnahme": "2026-11-23",
+    "hauptdiagnose": "Pertrochantäre Femurfraktur rechts nach häuslichem Sturz",
+    "eingriff": "Proximaler Femurnagel rechts am 2026-11-24",
+    "nebendiagnosen": ["Arterielle Hypertonie", "Leichte kognitive Einschränkung (fremdanamnestisch)", "Schwerhörigkeit beidseits", "Osteoporose"],
+    "allergien": ["keine bekannt"],
+    "soziales": "Lebt allein, Tochter wohnt im Nachbarort. Vor dem Sturz mit Rollator mobil."
+  },
+  "vitalwerte": [
+    {"zeit": "2026-11-25 06:00", "rr": "128/74", "puls": 82, "temp": 37.1, "spo2": 95, "af": 16, "schmerz_nrs": 4},
+    {"zeit": "2026-11-25 14:00", "rr": "134/78", "puls": 86, "temp": 37.4, "spo2": 95, "af": 16, "schmerz_nrs": 3},
+    {"zeit": "2026-11-25 22:00", "rr": "142/82", "puls": 94, "temp": 37.6, "spo2": 94, "af": 18, "schmerz_nrs": 6},
+    {"zeit": "2026-11-26 02:30", "rr": "156/88", "puls": 104, "temp": 37.8, "spo2": 93, "af": 20, "schmerz_nrs": null},
+    {"zeit": "2026-11-26 06:00", "rr": "118/66", "puls": 98, "temp": 37.9, "spo2": 92, "af": 20, "schmerz_nrs": 5},
+    {"zeit": "2026-11-26 12:00", "rr": "112/64", "puls": 96, "temp": 38.1, "spo2": 93, "af": 19, "schmerz_nrs": 4}
+  ],
+  "labor": [
+    {"datum": "2026-11-23", "hb_g_dl": 12.1, "leukozyten_g_l": 9.8, "crp_mg_l": 6, "natrium_mmol_l": 134, "kalium_mmol_l": 4.1, "kreatinin_mg_dl": 0.9},
+    {"datum": "2026-11-25", "hb_g_dl": 10.2, "leukozyten_g_l": 11.2, "crp_mg_l": 85, "natrium_mmol_l": 131, "kalium_mmol_l": 3.8, "kreatinin_mg_dl": 1.1},
+    {"datum": "2026-11-26", "hb_g_dl": 8.9, "leukozyten_g_l": 12.4, "crp_mg_l": 112, "natrium_mmol_l": 128, "kalium_mmol_l": 3.6, "kreatinin_mg_dl": 1.3}
+  ],
+  "medikation": [
+    {"wirkstoff": "Ramipril", "dosis": "5 mg", "schema": "1-0-0", "seit": "Dauermedikation"},
+    {"wirkstoff": "Hydrochlorothiazid", "dosis": "12,5 mg", "schema": "1-0-0", "seit": "Dauermedikation"},
+    {"wirkstoff": "Enoxaparin", "dosis": "40 mg s.c.", "schema": "0-0-1", "seit": "2026-11-23"},
+    {"wirkstoff": "Metamizol", "dosis": "1 g", "schema": "1-1-1-1", "seit": "2026-11-23"},
+    {"wirkstoff": "Oxycodon/Naloxon retard", "dosis": "10/5 mg", "schema": "1-0-1", "seit": "2026-11-24"},
+    {"wirkstoff": "Pantoprazol", "dosis": "40 mg", "schema": "1-0-0", "seit": "2026-11-23"},
+    {"wirkstoff": "Lorazepam", "dosis": "0,5 mg", "schema": "bei Bedarf zur Nacht", "seit": "2026-11-25", "gegeben": ["2026-11-25 22:30"]}
+  ],
+  "zugaenge_und_ableitungen": [
+    {"art": "Blasendauerkatheter", "seit": "2026-11-24"},
+    {"art": "Periphere Venenverweilkanüle links", "seit": "2026-11-25", "bemerkung": "Neuanlage nach Selbstentfernung"},
+    {"art": "Wunddrainage", "seit": "2026-11-24", "entfernt": "2026-11-26"}
+  ],
+  "bilanz": [
+    {"datum": "2026-11-25", "einfuhr_ml": 900, "ausfuhr_ml": 1100},
+    {"datum": "2026-11-26", "einfuhr_ml": 600, "ausfuhr_ml": 750, "bemerkung": "bis 12:00 Uhr"}
+  ],
+  "verlauf": [
+    {"zeit": "2026-11-25 10:15", "von": "Physiotherapie", "text": "Erste Mobilisation an die Bettkante, mit zwei Hilfspersonen in den Stand. Belastung nach Maßgabe der Beschwerden erlaubt. Patientin kooperativ, orientiert."},
+    {"zeit": "2026-11-25 18:40", "von": "Pflege", "text": "Abendessen nur zur Hälfte gegessen, trinkt wenig trotz Aufforderung. Hörgeräte liegen laut Tochter noch zu Hause."},
+    {"zeit": "2026-11-25 22:30", "von": "Pflege", "text": "Klagt über Schmerzen und kann nicht schlafen. Lorazepam 0,5 mg laut Bedarfsanordnung gegeben."},
+    {"zeit": "2026-11-26 02:30", "von": "Pflege", "text": "Patientin unruhig, versucht aufzustehen, hat sich die Venenverweilkanüle gezogen. Weiß nicht, wo sie ist, ruft nach ihrem Ehemann. Dienstarzt informiert. Bettgitter nicht angebracht, Niedrigbett, Sitzwache für 30 Minuten."},
+    {"zeit": "2026-11-26 07:10", "von": "Pflege", "text": "Morgens schläfrig, zeitlich nicht orientiert, zur Person orientiert. Frühstück abgelehnt. Urin im Beutel trüb und konzentriert."},
+    {"zeit": "2026-11-26 09:30", "von": "Ärztlicher Dienst", "text": "Visite: Wunde reizlos, Drainage entfernt. Hb-Kontrolle und Urinstatus angeordnet."},
+    {"zeit": "2026-11-26 11:45", "von": "Pflege", "text": "Tochter bringt Hörgeräte und Brille mit. Patientin danach etwas zugewandter."}
+  ]
+}
