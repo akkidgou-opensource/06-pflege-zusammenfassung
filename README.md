@@ -22,15 +22,18 @@
 1. Oben auf **Code → Download ZIP** klicken und entpacken.
 2. Im entpackten Ordner ein Terminal öffnen und `claude` eingeben.
 3. `SPICKZETTEL.md` öffnen und mit Block 1 beginnen.
+4. Zwischenstände hochladen: siehe `GITHUB_ANLEITUNG.md`.
 
 ## Was in diesem Repo liegt
 | Datei | Wofür |
 |---|---|
 | `SPICKZETTEL.md` | Umsetzungsplan für 8 Stunden, Block für Block |
-| `CLAUDE.md` | Regeln, an die sich Claude Code hält |
+| `CLAUDE.md`, `AGENTS.md` | Dieselben Regeln für den Coding-Agenten (Claude Code liest die erste, Codex die zweite Datei) |
+| `GITHUB_ANLEITUNG.md` | Eure Arbeit auf GitHub bringen, ohne Git-Kenntnisse |
 | `daten/QUELLEN.md` | Offene und synthetische Datenquellen mit Lizenz |
 | `daten/dummy_patient_01.json` | Ein frei erfundener Stationsfall (Vitalwerte, Labor, Medikation, Verlauf) |
 | `daten/grascco/` | 62 synthetische deutsche Arztbriefe als Zusatzmaterial |
+| `daten/synthea_auswahl/` | 10 vollständig künstliche Patientenakten als Tabellen (englisch) |
 
 ## Stolpersteine
 - Nur mit synthetischen Daten arbeiten
